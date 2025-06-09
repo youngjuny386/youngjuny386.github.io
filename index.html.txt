@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="조영준의 포트폴리오 - 동양미래대학교 학생, 프론트엔드 개발자 지망생">
+  <title>조영준 포트폴리오</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body { font-family: 'Pretendard', sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f9f9f9; color: #333; }
+    header, section, footer { padding: 2em; max-width: 960px; margin: auto; }
+    nav a { margin-right: 1.5em; text-decoration: none; color: #333; }
+    nav { text-align: right; margin-bottom: 1em; }
+    h1, h2 { color: #222; }
+    .project, .skill { margin-bottom: 1.5em; }
+    .icon { margin-right: 8px; }
+    .btn-download {
+      background: #007BFF; color: white; padding: 0.5em 1em; border: none; border-radius: 4px; text-decoration: none;
+    }
+    @media (max-width: 768px) {
+      nav { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#about">소개</a>
+    <a href="#projects">프로젝트</a>
+    <a href="#skills">기술</a>
+    <a href="#contact">연락처</a>
+  </nav>
+  <h1>👋 안녕하세요, 조영준입니다</h1>
+  <p>동양미래대학교 학생 / 프론트엔드 개발자 지망생</p>
+</header>
+
+<section id="about">
+  <h2>자기소개</h2>
+  <p>
+    꾸준히 배우고 성장하는 것을 좋아하는 개발자 지망생입니다.<br>
+    웹 퍼블리싱, 반응형 UI, JavaScript를 활용한 동적 기능 구현에 관심이 많으며,<br>
+    사용자 친화적인 경험을 만들기 위해 공부하고 있습니다
+  </p>.
+</section>
+
+<section id="projects">
+  <h2>프로젝트</h2>
+  <div class="project">
+    <h3>📌 포트폴리오 웹사이트</h3>
+    <p>HTML, CSS, JavaScript를 활용해 만든 반응형 개인 웹사이트</p>
+    <a href="https://github.com/yourusername/portfolio" target="_blank"><i class="fab fa-github"></i> GitHub 보기</a>
+  </div>
+  <!-- 추가 프로젝트는 여기에 -->
+</section>
+
+<section id="skills">
+  <h2>기술 스택</h2>
+  <div class="skill"><i class="fab fa-html5 icon"></i> HTML5</div>
+  <div class="skill"><i class="fab fa-css3-alt icon"></i> CSS3</div>
+  <div class="skill"><i class="fab fa-js icon"></i> JavaScript</div>
+  <div class="skill"><i class="fab fa-react icon"></i> React (학습 중)</div>
+</section>
+
+<section id="resume">
+  <h2>이력서</h2>
+  <a href="resume.pdf" class="btn-download" download><i class="fas fa-download"></i> 이력서 다운로드</a>
+</section>
+
+<section id="contact">
+  <h2>연락처</h2>
+  <p><i class="fas fa-envelope icon"></i> youngjun@example.com</p>
+  <p>
+    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github icon"></i> GitHub</a><br>
+    <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin icon"></i> LinkedIn</a>
+  </p>
+</section>
+
+<footer>
+  <p>© 2025 조영준. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
